@@ -8,14 +8,7 @@ namespace Індексатор
             Console.OutputEncoding = System.Text.Encoding.Unicode;
             Team person = new Team();
             person[10] = new Player { Name = "Andrey", Number = 77 };
-            if (person[10] == null)
-            {
-                Console.WriteLine($"Некоректно введені дані ");
-            }
-            else
-            {
-                person[10].GetPlayer();
-            }
+            person[10]?.GetPlayer();
 
         }
     }
