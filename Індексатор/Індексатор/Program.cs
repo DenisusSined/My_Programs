@@ -10,7 +10,7 @@ namespace Індексатор
             person[10] = new Player { Name = "Andrey", Number = 77 };
             if (person[10] == null)
             {
-                Console.WriteLine($"Некоректно введені дані");
+                Console.WriteLine($"Некоректно введені дані ");
             }
             else
             {
